@@ -1,5 +1,6 @@
 body{
     background-color: rgb(80, 80, 80);
+    display: flow-root;
 }
 
 h1{
@@ -7,14 +8,40 @@ h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    text-shadow: 3px 3px 5px blue, -3px -3px 5px red;
+}
+
+h3{
+    border-top: 3px dotted lightgreen;
+    border-bottom: 3px solid lightblue;
 }
 #p1{
     color: red;
 }
 
 button{
-    font-size: 150%;
+    font-size: 25px;
     background-color:darkblue;
     color:blue;
-    border-radius: 25%;
+    border-radius: 25px;
+}
+
+pre{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 50px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+img{
+    float: left;
+    border-radius: 3px;
+    margin-left: 25px;
 }
