@@ -11,6 +11,16 @@ h1{
     font-size: 50px;
 }
 
+.navbar ul{
+    list-style-type: none; /*remove bullet points*/
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none ;
+}
 p{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
