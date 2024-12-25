@@ -6,8 +6,8 @@ body {
 main{
     margin-right: 20;
     margin-left: 20;
-
 }
+
 h1{
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px grey;
@@ -16,20 +16,29 @@ h1{
     font-size: 50px;
 }
 
+h3{
+    color: rgb(255, 255, 255);
+    margin-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
 /*Navigation bar*/
 .navbar ul{
     list-style-type: none; /*Remove bullet points*/
-    background-color: rgba(50, 50, 75, 0.25);
+    background: linear-gradient(to right, rgb(25, 25, 75), rgb(50, 50, 75, 0.25));
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 .navbar a{
     color: rgb(255, 255, 255);
+    font-size: large;
     text-decoration: none; /*Removes underline*/
     padding: 15px;
     display: block;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar a:hover{
     background-color: rgba(50, 50, 75, 0.1);
