@@ -1,6 +1,9 @@
+
+
 body {
     background: linear-gradient(to right, rgb(25, 25, 75), rgb(25, 25, 255));
     margin: 0px;
+    scrollbar-color: blue;
 }
 
 main{
@@ -77,11 +80,15 @@ p{
     position: relative;
 }
 .content{
+    height: 216px;
+    width: 216px;
+    transform: translateX(-8px) translateY(-211px);
     background: rgb(0, 0, 0, 0.75);
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     opacity: 0;
     transition: 0.6s;
@@ -90,4 +97,15 @@ p{
 }
 .skillsImage:hover .content{
     opacity: 1;
+}
+
+
+
+footer{
+    transform-origin: bottom;
+    display: block;
+    clear: both;
+    background-color: rgb(25, 25, 75);
+    text-align: center;
+    padding: 25px;
 }
