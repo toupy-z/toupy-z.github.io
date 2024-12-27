@@ -1,147 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>toupy's portfolio</title>
     <link rel="icon" type="images/png" href="images/toupyProfilePic.png">
     <link rel="stylesheet" href="style.css">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <style>
-        .profile-picture {
-            border-radius: 50%; 
-            object-fit: cover; 
-            height: 250px; 
-            width: 250px;
-            float: right;
-            margin-right: 250px;
-            box-shadow: 5px 5px black;
-        }
-    </style>
-</head>
-<body>    
-    <nav class="navbar">
-        <ul>
-            <li><a href="">Social Links</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
+  </head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-text"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="games.html">Games</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <h1><u>Welcome to my portfolio!</u></h1>
-
-    <br>
-    <img src="images/toupyProfilePic.png" alt="Profile Picture" class="profile-picture">
-    
-    <div style="
-    transform: translateX(200px) translateY(250px);
-    margin-right: 300px;">
-        <img style="width: 20px; height: 20px;"  src="images/locationPin.png" alt="Location">
-        <p>
-        London, UK
-    </p>
-</div>
-    
-
-    <p style=
-    "font-size: xx-large;
-    margin-left: 250px;
-    border-block: solid;
-    border-color: rgb(175, 200, 250);
-    width: fit-content;">
-    Hey! I'm toupy (Tracey Z), a 16 years old student passionate about technology.
-    <br><br>
-    During Covid-19 when I was 12 years old, I got my first ever computer and mess around using the ROBLOX engine which was my first experience with coding.
-    In the future, I hope to work as a developer working with positive and unique people in the industy making fun projects.
-</p>
-
-    <h3>I use: </h3>
-
-    <div class="skills">
-        <div class="skillsImage">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
-            <div class="content">
-                <p>Python</p>
-            </div>
-        </div>
-        <div class="skillsImage">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-            <div class="content">
-                <p>HTML</p>
-            </div>
-        </div>
-        <div class="skillsImage">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-            <div class="content">
-                <p>CSS</p>
-            </div>
-        </div>
-        <div class="skillsImage">
+  <main id="about">
+    <div class="about-container">
+      <div class="profile-section">
+        <img src="images/toupyProfilePic.png" alt="Profile Picture" class="profile-pic">
+        <p class="location">📍 London, UK</p>
+      </div>
+      <div class="description">
+        <h1>Hello, I'm toupy</h1>
+        <p>I am a 16 year old <del>nerd</del> student passionate about techonolgy. I go by toupy online, but you can also call me Tracey Z</p>
+      
+        <h2>I use: </h2>
+        <div class="skills">
+          <div class="skill" data-skill="Python">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
+          </div>
+          <div class="skill" data-skill="HTML">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML">
+          </div>
+          <div class="skill" data-skill="CSS">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS">
+          </div>
+          <div class="skill" data-skill="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+          </div>
+          <div class="skill" data-skill="Github">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-            <div class="content">
-                <p>Github</p>
-            </div>
-        </div>
-        <div class="skillsImage">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-            <div class="content">
-                <p>Javascript</p>
-            </div>
-        </div>
-        <div class="skillsImage">
+          </div>
+          <div class="skill" data-skill="Visual Studio Code">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-            <div class="content">
-                <p>Visual Studio Code</p>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-
-    <pre>.
-
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        .
-    </pre>
-    <footer>
-        <p>Made with ❤️ by toupy</p>
-    </footer>
-
-          
-
+  </main>
 </body>
 </html>
-
 
           
