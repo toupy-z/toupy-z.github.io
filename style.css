@@ -15,8 +15,15 @@ h2{
   color: white;
 }
 
-p{
+#pageAbout{
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 header {
@@ -176,12 +183,18 @@ header a.active {
 /* Projects Page */
 #projects {
   padding: 20px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
 }
 
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0, auto;
 }
 
 .project-card {
@@ -226,6 +239,11 @@ header a.active {
   padding: 5px 10px;
   border-radius: 15px;
   border: none;
+}
+
+.source-code-btn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
 }
 
 .skills-used span {
